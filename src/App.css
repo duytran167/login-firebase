@@ -36,3 +36,119 @@
     transform: rotate(360deg);
   }
 }
+body {
+  padding: 20px;
+  letter-spacing: 1px;
+  background: #007bff;
+  background: linear-gradient(to right, #fff, #f2f1ca);
+}
+a{
+  color: blueviolet;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.register-form {
+  margin-top: 20px;
+}
+
+.form-details {
+  margin-top: 20px;
+}
+
+.form-details > div {
+  margin: 10px;
+}
+.head{
+  background-color: violet;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ol, ul { list-style: none; }
+img { border: none; vertical-align: top; }
+button {
+  background-color: #3a95ea;
+  border: 1px solid #2d87da;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 15px;
+}
+
+/* Nội dung layout */
+#layout {
+  margin: 20px auto;
+  width: 1024px;
+}
+ footer, aside, .box-list li {
+  font-size: 30px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+#content {
+  margin-right: 20px;
+  width: 754px;
+}
+#content h1 {
+  font-size: 30px;
+  background-color: #e9e9e9;
+  padding: 5px 0  5px 10px;
+  margin: 20px 0 30px;
+}
+#content .item-list h2 {
+  margin-bottom: 10px;
+}
+#content .item-list div {
+  margin-bottom: 30px;
+}
+aside {
+  background-color: #f2d8ca;
+  height: 400px;
+  line-height: 400px;
+  width: 250px;
+}
+.box-list {
+  display: flex;
+  margin-top: 10px;
+}
+.box-list li {
+  background-color: #f2f1ca;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 248.5px;
+}
+.box-list li:last-child {
+  margin-right: 0;
+}
+footer {
+  background-color: #eecbf3;
+  height: 80px;
+  line-height: 80px;
+}
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+
+.btnn-google {
+  color: white !important;
+  background-color: #ea4335;
+  
+}
+
+.btn-facebook {
+  color: white !important;
+  background-color: #3b5998;
+}
